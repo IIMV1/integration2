@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bite&Balance - Meals</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header class="navbar">
+
+        <div class="logo">
+            Bite<span>&</span>Balance
+        </div>
+
+        <a href="index.html" class="home-link">
+            Home
+        </a>
+
+    </header>
+
+
+    <main class="results-container">
+
+        <div class="results-header">
+
+            <p class="small-title">
+                BITE & BALANCE
+            </p>
+
+            <h1>
+                Explore our meals
+            </h1>
+
+            <p id="searchResultText">
+                Delicious meals waiting for you.
+            </p>
+
+        </div>
+
+
+        <div id="mealsContainer" class="meals-grid">
+
+
+            <div class="meal-card" data-name="pizza">
+
+                <img src="imgs/pizza.jpg" alt="Pizza">
+
+                <div class="meal-info">
+
+                    <h2>Pizza</h2>
+
+                    <p>
+                        A delicious classic meal.
+                    </p>
+
+                    <button onclick="openMeal('Pizza')">
+                        View Meal
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="meal-card" data-name="spaghetti bolognese">
+
+                <img src="imgs/spaghetti.jpg" alt="Spaghetti Bolognese">
+
+                <div class="meal-info">
+
+                    <h2>Spaghetti Bolognese</h2>
+
+                    <p>
+                        Italian pasta with rich sauce.
+                    </p>
+
+                    <button onclick="openMeal('Spaghetti Bolognese')">
+                        View Meal
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="meal-card" data-name="fettuccine alfredo">
+
+                <img src="imgs/fettuccine.jpg" alt="Fettuccine Alfredo">
+
+                <div class="meal-info">
+
+                    <h2>Fettuccine Alfredo</h2>
+
+                    <p>
+                        Creamy and comforting pasta.
+                    </p>
+
+                    <button onclick="openMeal('Fettuccine Alfredo')">
+                        View Meal
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="meal-card" data-name="beef burger">
+
+                <img src="imgs/burger.jpg" alt="Beef Burger">
+
+                <div class="meal-info">
+
+                    <h2>Beef Burger</h2>
+
+                    <p>
+                        A classic juicy burger.
+                    </p>
+
+                    <button onclick="openMeal('Beef Burger')">
+                        View Meal
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="meal-card" data-name="chicken alfredo">
+    <img src="imgs/chicken alfredo.jpg" alt="Chicken Alfredo">
+    <div class="meal-info">
+        <h2>Chicken Alfredo</h2>
+        <p>Creamy chicken pasta.</p>
+        <button onclick="openMeal('Chicken Alfredo')">View Meal</button>
+    </div>
+</div>
+
+
+            <div class="meal-card" data-name="chicken curry">
+    <img src="imgs/chicken curry.jpg" alt="Chicken Curry">
+    <div class="meal-info">
+        <h2>Chicken Curry</h2>
+        <p>Flavorful chicken with curry.</p>
+        <button onclick="openMeal('Chicken Curry')">View Meal</button>
+    </div>
+</div>
+
+
+            <div class="meal-card" data-name="tacos">
+
+                <img src="imgs/tacos.jpg" alt="Tacos"">
+
+                <div class="meal-info">
+
+                    <h2>Tacos</h2>
+
+                    <p>
+                        A delicious Mexican favorite.
+                    </p>
+
+                    <button onclick="openMeal('Tacos')">
+                        View Meal
+                    </button>
+
+                </div>
+
+            </div>
+
+
+           <div class="meal-card" data-name="pancakes">
+    <img src="imgs/pancakes.jpg" alt="Pancakes">
+    <div class="meal-info">
+        <h2>Pancakes</h2>
+        <p>Soft and fluffy pancakes.</p>
+        <button onclick="openMeal('Pancakes')">View Meal</button>
+    </div>
+</div>
+
+
+            <div class="meal-card" data-name="chocolate chip cookies">
+    <img src="imgs/cookies.jpg" alt="Chocolate Chip Cookies">
+    <div class="meal-info">
+        <h2>Chocolate Chip Cookies</h2>
+        <p>Sweet cookies with chocolate chips.</p>
+        <button onclick="openMeal('Chocolate Chip Cookies')">View Meal</button>
+    </div>
+</div>
+
+
+            <div class="meal-card" data-name="cheesecake">
+    <img src="imgs/cheesecake.jpg" alt="Cheesecake">
+    <div class="meal-info">
+        <h2>Cheesecake</h2>
+        <p>Rich and creamy dessert with a biscuit crust.</p>
+        <button onclick="openMeal('Cheesecake')">View Meal</button>
+    </div>
+</div>
+
+
+        </div>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
